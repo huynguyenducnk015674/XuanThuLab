@@ -29,6 +29,6 @@ namespace HelloWorld
                     // webBuilder đối tượng lớp WebHostBuilder để cấu hình, đăng ký các dịch vụ ứng dụng Web
                     // UseStartup chỉ ra lớp khởi chạy ứng dụng (đăng ký dịch vụ)
                     webBuilder.UseStartup<Startup>();
-                });
+                }); 
     }
 }
