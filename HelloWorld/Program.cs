@@ -18,7 +18,7 @@ namespace HelloWorld
             //var hostBuilder=CreateHostBuilder(args);
             //var iHost = hostBuilder.Build();
             //iHost.Run();
-
+            
             CreateHostBuilder(args).Build().Run();
         }
 
