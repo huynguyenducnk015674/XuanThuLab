@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.middleware", "..\02.midd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.map-request-response", "..\03.map-request-response\03.map-request-response.csproj", "{0CCDDBED-4E1D-4950-BC25-4F65C53A048A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCollectionLab", "..\ServiceCollectionLab\ServiceCollectionLab.csproj", "{009E4E94-1F97-4EA7-84AE-CC44D1670D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceCollectionLab", "..\ServiceCollectionLab\ServiceCollectionLab.csproj", "{009E4E94-1F97-4EA7-84AE-CC44D1670D70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.IServiceCollection-map-when", "..\04.IServiceCollection-map-when\04.IServiceCollection-map-when.csproj", "{5AE0F2FD-E06C-46A3-A204-8217A3500362}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{009E4E94-1F97-4EA7-84AE-CC44D1670D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{009E4E94-1F97-4EA7-84AE-CC44D1670D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{009E4E94-1F97-4EA7-84AE-CC44D1670D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE0F2FD-E06C-46A3-A204-8217A3500362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE0F2FD-E06C-46A3-A204-8217A3500362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE0F2FD-E06C-46A3-A204-8217A3500362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE0F2FD-E06C-46A3-A204-8217A3500362}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
