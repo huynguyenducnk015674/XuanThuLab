@@ -23,6 +23,12 @@ namespace _04.IServiceCollection_map_when
             services.AddTransient<PhoneName, PhoneName>();
             services.AddTransient<ProductController, ProductController>();
             this._services = services;
+            services.AddDistributedMemoryCache();
+            services.AddSession(opt =>
+            {
+                opt.Cookie.Name = "xuanthulab";
+                opt.IdleTimeout = new TimeSpan(0, 60, 0);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,9 +38,11 @@ namespace _04.IServiceCollection_map_when
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseStaticFiles();
-            app.UseRouting();
 
+            app.UseStaticFiles();
+          
+            app.UseRouting();
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
@@ -53,6 +61,11 @@ namespace _04.IServiceCollection_map_when
                  {
                      var productController = app.ApplicationServices.GetService<ProductController>();
                      await productController.List(context);
+                 });
+                endpoints.MapGet("/RequestInfo", async context =>
+                 {
+
+                     await context.Response.WriteAsync( ProductController.CountAccessInfo(context));
                  });
                 app.MapWhen(
                     (context) =>
@@ -90,6 +103,7 @@ namespace _04.IServiceCollection_map_when
                     
                     
                 });
+
                 
             });
             

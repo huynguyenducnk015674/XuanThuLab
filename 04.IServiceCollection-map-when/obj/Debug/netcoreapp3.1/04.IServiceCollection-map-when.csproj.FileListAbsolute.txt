@@ -20,3 +20,11 @@ D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Lea
 D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\obj\Debug\netcoreapp3.1\04.IServiceCollection-map-when.dll
 D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\obj\Debug\netcoreapp3.1\04.IServiceCollection-map-when.pdb
 D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\obj\Debug\netcoreapp3.1\04.IServiceCollection-map-when.genruntimeconfig.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\04.IServiceCollection-map-when\obj\Debug\netcoreapp3.1\04.IServiceCollection-map-when.csproj.CopyComplete
