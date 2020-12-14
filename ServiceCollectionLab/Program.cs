@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ServiceCollectionLab.Impl;
 using System;
 using System.IO;
 
@@ -10,24 +11,29 @@ namespace ServiceCollectionLab
         static void Main(string[] args)
         {
 
-            //////Tạo Service collection 
-            //ServiceCollection serviceCollection = new ServiceCollection();
+            ////Tạo Service collection 
+            ServiceCollection serviceCollection = new ServiceCollection();
 
-            //serviceCollection.AddSingleton<A>();
+            
+            // Đăng ký obecj A
+            serviceCollection.AddScoped<A>();
+
             //serviceCollection.AddTransient<B>();
             //serviceCollection.AddScoped<C>();
             //serviceCollection.AddTransient<D>((serviceProvider) =>
             //{
             //    return new D(serviceProvider.GetService<A>(), 123);
             //});
-            //// Tạo service Provider
-            //ServiceProvider serviceProvider = serviceCollection.BuildServiceProvider();
+            // Tạo service Provider
+            ServiceProvider serviceProvider = serviceCollection.BuildServiceProvider();
 
             //B b1 = serviceProvider.GetService<B>();
             //B b2 = serviceProvider.GetService<B>();
             //b1.ShowInfo();
             //b2.ShowInfo();
-            //A a1 = serviceProvider.GetService<A>();
+           
+            A a1 = serviceProvider.GetService<A>();
+            A a2=serviceProvider.GetService<A>();
             ///////////////////////////////////////////////////
             //C c1 = serviceProvider.GetService<C>();
             //C c2 = serviceProvider.GetService<C>();
@@ -59,10 +65,6 @@ namespace ServiceCollectionLab
             //var root=configBuilder.Build();
             //var key = root.GetSection("option1").GetSection("key1").Value;
 
-            Horn h = new Horn(10);
-
-            Car c = new Car(h);
-            c.Beep();
 
             Console.ReadLine();
 

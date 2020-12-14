@@ -11,6 +11,8 @@ namespace ServiceCollectionLab
         {
             this.level = level;
         }
+        public Horn() { }
+
         public void Beep() => Console.WriteLine($"Beep -beep with {this.level}!!!!");
     }
 }
