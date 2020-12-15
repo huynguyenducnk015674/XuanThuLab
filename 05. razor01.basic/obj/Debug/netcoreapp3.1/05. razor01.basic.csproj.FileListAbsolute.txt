@@ -1,0 +1,42 @@
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\appsettings.json
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\05. razor01.basic.exe
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\05. razor01.basic.deps.json
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\05. razor01.basic.runtimeconfig.json
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\05. razor01.basic.runtimeconfig.dev.json
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\05. razor01.basic.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\05. razor01.basic.pdb
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\05. razor01.basic.Views.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\bin\Debug\netcoreapp3.1\05. razor01.basic.Views.pdb
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.csprojAssemblyReference.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.AssemblyInfoInputs.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.AssemblyInfo.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.csproj.CoreCompileInputs.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.MvcApplicationPartsAssemblyInfo.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.RazorAssemblyInfo.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.RazorAssemblyInfo.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.TagHelpers.input.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.TagHelpers.output.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.RazorCoreGenerate.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.RazorTargetAssemblyInfo.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.RazorTargetAssemblyInfo.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.Views.pdb
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\staticwebassets\05. razor01.basic.StaticWebAssets.Manifest.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\staticwebassets\05. razor01.basic.StaticWebAssets.xml
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.dll
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.pdb
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.genruntimeconfig.cache
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\05. razor01.basic.csproj.CopyComplete
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\EditPost.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Index.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Areas\Product\Pages\Detail.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Areas\Product\Pages\Index.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\05. razor01.basic\obj\Debug\netcoreapp3.1\Razor\Contents\Index.cshtml.g.cs

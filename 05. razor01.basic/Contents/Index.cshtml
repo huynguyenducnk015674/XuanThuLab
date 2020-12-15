@@ -1,0 +1,9 @@
+﻿@page "{name?}"
+@model _05._razor01.basic.Contents.IndexModel
+@{
+    string name = this.Request.RouteValues["name"] as string;
+    ViewData["Title"] = name;
+}
+<h1>@ViewData["Title"]</h1>
+
+

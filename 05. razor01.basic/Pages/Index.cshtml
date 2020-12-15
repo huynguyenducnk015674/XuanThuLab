@@ -8,3 +8,22 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<p class="text-danger"> Sin góc @Math.PI radian là @Math.Sin(Math.PI / 2)</p>
+
+@functions{
+    string name;
+    int age { get; set; }
+    string Welcome()
+    {
+        return $"Xin chào {this.name}, bạn {this.age} tuổi";
+    }
+}
+@{ 
+    this.name = "nguyen duc huy";
+    this.age = 40;
+    <p>@Welcome()</p>
+}
+@section MySection{ 
+    <p>Xin chào các bạn</p>
+    <p>This is welcome section</p>
+}

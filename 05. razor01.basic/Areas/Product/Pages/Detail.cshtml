@@ -1,0 +1,7 @@
+﻿@page  "{nameproduct?}"
+@model _05._razor01.basic.Areas.Product.Pages.DetailModel
+@{
+    string productName = Request.RouteValues["nameproduct"] as string;
+    ViewData["key"] = productName;
+}
+<h1>@ViewData["key"]</h1>
