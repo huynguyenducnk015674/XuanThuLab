@@ -7,6 +7,7 @@ using _04.IServiceCollection_map_when.impl;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -15,6 +16,11 @@ namespace _04.IServiceCollection_map_when
     public class Startup
     {
         IServiceCollection _services;
+        IConfiguration _config;
+        public Startup(IConfiguration _config)
+        {
+            this._config = _config;
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
@@ -22,7 +28,10 @@ namespace _04.IServiceCollection_map_when
             services.AddTransient<IListProductName, LaptopName>();
             services.AddTransient<PhoneName, PhoneName>();
             services.AddTransient<ProductController, ProductController>();
+            services.AddOptions();
             this._services = services;
+            services.Configure<TestOptions>(_config.GetSection("TestOptions"));
+            
             services.AddDistributedMemoryCache();
             services.AddSession(opt =>
             {
@@ -102,6 +111,15 @@ namespace _04.IServiceCollection_map_when
                     });
                     
                     
+                });
+                app.Map("/showoption", (appOption) =>
+                {
+                    appOption.Run(async (context) =>
+                    {
+                        IConfiguration config = appOption.ApplicationServices.GetService<IConfiguration>();
+                        var testopt=config.GetSection("TestOptions").Get<TestOptions>();
+                        await context.Response.WriteAsync(testopt.opt_key2.K1);
+                    });
                 });
 
                 
