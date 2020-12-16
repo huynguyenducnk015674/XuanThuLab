@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.IServiceCollection-map-w
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. razor01.basic", "..\05. razor01.basic\05. razor01.basic.csproj", "{824208F6-1D22-41F8-A468-9940AED7CA1A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.razor02.layout", "..\06.razor02.layout\06.razor02.layout.csproj", "{33F9AB49-91B3-4456-B2A6-7DF8E68F527B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{824208F6-1D22-41F8-A468-9940AED7CA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{824208F6-1D22-41F8-A468-9940AED7CA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{824208F6-1D22-41F8-A468-9940AED7CA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F9AB49-91B3-4456-B2A6-7DF8E68F527B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F9AB49-91B3-4456-B2A6-7DF8E68F527B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F9AB49-91B3-4456-B2A6-7DF8E68F527B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F9AB49-91B3-4456-B2A6-7DF8E68F527B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

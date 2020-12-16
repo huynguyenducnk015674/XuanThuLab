@@ -1,0 +1,22 @@
+﻿@page   
+@{ 
+    var menus = new List<string> { "Menu01","Menu02" };
+    dynamic products = new
+    {
+        Name = "Sản phẩm ABC",
+        Description = "Thông tin chi tiết...",
+        Price = "1000"
+    };
+    HttpContext.Response.Headers.Add("REFRESH", "5;/privacy");
+}
+<table class="table-bordered">
+    <tr>
+        <td>
+            @await Html.PartialAsync("CustomPartial/_LeftMenu", menus)
+        </td>
+        <td>@await Component.InvokeAsync("ViewProduct", products)</td>
+        <td>
+            @await Html.PartialAsync("CustomPartial/_RightMenu", menus)
+        </td>
+    </tr>
+</table>

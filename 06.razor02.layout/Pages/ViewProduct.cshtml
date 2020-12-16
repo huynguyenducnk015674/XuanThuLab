@@ -1,0 +1,15 @@
+﻿@page  
+@{ 
+    Layout = "Product/_sublayout";
+    var product = new
+    {
+        name = "Iphone",
+        des = "Điện thoại Iphone",
+        price = 28000000
+    };
+    ViewData["title"] = $"Xem sản phẩm {product.name} ";
+
+}
+<h3>@product.name</h3>
+<div>@product.des.</div>
+<div>@product.price</div>

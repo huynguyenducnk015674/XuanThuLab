@@ -47,23 +47,26 @@ namespace ServiceCollectionLab
             //var d = serviceProvider.GetService<D>();
             //d.Display();
             //////////////////////////////////////////////////////////
-            ////Use option
-            //serviceCollection.AddOptions();
-            ////Register option and init value
-            //serviceCollection.Configure<MyServiceOptions>((option) =>
-            //{
-            //    option.data1 = "This is value of option service";
-            //    option.data2 = 10;
-            //    option.objA = serviceProvider.GetService<A>();
-            //});
+            //Use option
+            serviceCollection.AddOptions();
+            //Register option and init value
+            serviceCollection.Configure<MyServiceOptions>((option) =>
+            {
+                option.data1 = "This is value of option service";
+                option.data2 = 10;
+                option.objA = serviceProvider.GetService<A>();
+            });
             //serviceCollection.AddTransient<MyService>();
             //serviceProvider = serviceCollection.BuildServiceProvider();
             //MyService _service = serviceProvider.GetService<MyService>();
             //_service.ShowData();
             //////////////////////////////////////////////////////////////
-            //var configBuilder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
-            //var root=configBuilder.Build();
-            //var key = root.GetSection("option1").GetSection("key1").Value;
+            var configBuilder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettingss.json",true)
+                .AddJsonFile("appsetting_dev.json",true);
+            var root = configBuilder.Build();
+            var key = root.GetSection("option1").GetSection("key1").Value;
 
 
             Console.ReadLine();
