@@ -1,13 +1,15 @@
-﻿@page   
-@{ 
-    var menus = new List<string> { "Menu01","Menu02" };
+﻿@page   "/order/{productid:int}"
+@model IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+    var menus = new List<string> { "Menu01", "Menu02" };
     dynamic products = new
     {
         Name = "Sản phẩm ABC",
         Description = "Thông tin chi tiết...",
         Price = "1000"
     };
-    HttpContext.Response.Headers.Add("REFRESH", "5;/privacy");
+    // HttpContext.Response.Headers.Add("REFRESH", "5;/privacy");
 }
 <table class="table-bordered">
     <tr>
@@ -20,3 +22,21 @@
         </td>
     </tr>
 </table>
+<form method="POST">
+    <input type="text" name="username" placeholder="Nhập tên" />
+    <input type="email" name="email" placeholder="Nhập email" />
+    <button class="btn btn-danger" type="submit">Gửi</button>
+</form>
+<div class="card bg-success">
+    <div class="card-body text-white">
+        <p>Dữ liệu trong Model:</p>
+        <ul>
+            <li>ProductID: @Model.ProductId</li>
+            <li>UserName: @Model.UserId</li>
+            <li>Email: @Model.Email</li>
+            <li>Color: @Model.Color</li>
+            <li>desscription: @Model.product.Description</li>
+            <li>productID: @Model.product.ID</li>
+        </ul>
+    </div>
+</div>
