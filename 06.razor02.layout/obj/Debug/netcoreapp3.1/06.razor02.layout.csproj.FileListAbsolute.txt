@@ -42,3 +42,5 @@ D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Lea
 D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\06.razor02.layout\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\CustomPartial\_RightMenu.cshtml.g.cs
 D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\06.razor02.layout\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Components\ViewProduct\ViewProduct.cshtml.g.cs
 D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\06.razor02.layout\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Components\MessagePage\Default.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\06.razor02.layout\obj\Debug\netcoreapp3.1\Razor\Pages\Form.cshtml.g.cs
+D:\04. NGUYEN DUC HUY\05. SOURCE CODE\LEARNING CODE\ASP NET CORE\03. Project Learning\XuanThuLab\06.razor02.layout\obj\Debug\netcoreapp3.1\Razor\Pages\UploadOneFile.cshtml.g.cs
