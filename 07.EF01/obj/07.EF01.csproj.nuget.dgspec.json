@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\04. NGUYEN DUC HUY\\05. SOURCE CODE\\LEARNING CODE\\ASP NET CORE\\03. Project Learning\\XuanThuLab\\07.EF01\\07.EF01.csproj": {}
+  },
+  "projects": {
+    "D:\\04. NGUYEN DUC HUY\\05. SOURCE CODE\\LEARNING CODE\\ASP NET CORE\\03. Project Learning\\XuanThuLab\\07.EF01\\07.EF01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\04. NGUYEN DUC HUY\\05. SOURCE CODE\\LEARNING CODE\\ASP NET CORE\\03. Project Learning\\XuanThuLab\\07.EF01\\07.EF01.csproj",
+        "projectName": "07.EF01",
+        "projectPath": "D:\\04. NGUYEN DUC HUY\\05. SOURCE CODE\\LEARNING CODE\\ASP NET CORE\\03. Project Learning\\XuanThuLab\\07.EF01\\07.EF01.csproj",
+        "packagesPath": "C:\\Users\\huy.nguyenduc\\.nuget\\packages\\",
+        "outputPath": "D:\\04. NGUYEN DUC HUY\\05. SOURCE CODE\\LEARNING CODE\\ASP NET CORE\\03. Project Learning\\XuanThuLab\\07.EF01\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\huy.nguyenduc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
