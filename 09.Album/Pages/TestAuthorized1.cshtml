@@ -1,0 +1,6 @@
+﻿@page
+@inject Microsoft.AspNetCore.Identity.UserManager<Album.Models.AppUser> UserManager
+@model _09.Album.Pages.TestAuthorized1Model
+@{
+}
+<p class="alert alert-danger">@UserManager.GetUserName(User),  Bạn đang truy cập TestAuthorize1</p>

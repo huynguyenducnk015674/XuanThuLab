@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ServiceCollectionLab
+﻿namespace ServiceCollectionLab
 {
-    class B:BaseInformation
+    class B : BaseInformation
     {
         A dependency;
         public B(A dependency)

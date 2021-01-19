@@ -1,8 +1,5 @@
 ﻿using _07.EF01.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _07.EF01.Context
 {

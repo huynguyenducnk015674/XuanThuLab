@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using _04.IServiceCollection_map_when.impl;
+﻿using _04.IServiceCollection_map_when.impl;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
+using System.Linq;
+using System.Text;
 
 namespace _04.IServiceCollection_map_when
 {
@@ -31,7 +29,7 @@ namespace _04.IServiceCollection_map_when
             services.AddOptions();
             this._services = services;
             services.Configure<TestOptions>(_config.GetSection("TestOptions"));
-            
+
             services.AddDistributedMemoryCache();
             services.AddSession(opt =>
             {
@@ -49,7 +47,7 @@ namespace _04.IServiceCollection_map_when
             }
 
             app.UseStaticFiles();
-          
+
             app.UseRouting();
             app.UseSession();
             app.UseEndpoints(endpoints =>
@@ -58,10 +56,10 @@ namespace _04.IServiceCollection_map_when
                 {
                     await context.Response.WriteAsync(
                         HtmlHelper.HtmlDocument("HomePage", HtmlHelper.MenuTop(
-                            new object[] 
+                            new object[]
                             {
                                 new { url="/home",label="Home" },
-                                new { url="/product",label="product"} 
+                                new { url="/product",label="product"}
                             }
                             , context.Request))
                         );
@@ -74,7 +72,7 @@ namespace _04.IServiceCollection_map_when
                 endpoints.MapGet("/RequestInfo", async context =>
                  {
 
-                     await context.Response.WriteAsync( ProductController.CountAccessInfo(context));
+                     await context.Response.WriteAsync(ProductController.CountAccessInfo(context));
                  });
                 app.MapWhen(
                     (context) =>
@@ -83,14 +81,14 @@ namespace _04.IServiceCollection_map_when
                     },
                     (appBuilder) =>
                     {
-                    appBuilder.Run(
-                       async (context) =>
-                        {
-                            await appBuilder.ApplicationServices.GetService<ProductController>().List(context);
-                        }
-                            );
+                        appBuilder.Run(
+                           async (context) =>
+                            {
+                                await appBuilder.ApplicationServices.GetService<ProductController>().List(context);
+                            }
+                                );
                     }
-                   
+
                     );
                 app.Map("/allservice", (app01) =>
                 {
@@ -109,22 +107,22 @@ namespace _04.IServiceCollection_map_when
                         string htmlAllService = stringBuilder.ToString().HtmlTag("table", "table table-bordered table-sm");
                         await context.Response.WriteAsync(HtmlHelper.HtmlDocument("All Service", htmlAllService));
                     });
-                    
-                    
+
+
                 });
                 app.Map("/showoption", (appOption) =>
                 {
                     appOption.Run(async (context) =>
                     {
                         IConfiguration config = appOption.ApplicationServices.GetService<IConfiguration>();
-                        var testopt=config.GetSection("TestOptions").Get<TestOptions>();
+                        var testopt = config.GetSection("TestOptions").Get<TestOptions>();
                         await context.Response.WriteAsync(testopt.opt_key2.K1);
                     });
                 });
 
-                
+
             });
-            
+
         }
     }
 }

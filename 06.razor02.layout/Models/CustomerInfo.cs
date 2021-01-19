@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace _06.razor02.layout.Models
 {
@@ -23,7 +20,7 @@ namespace _06.razor02.layout.Models
         [Required(ErrorMessage = "Thiếu năm sinh")]
         [Display(Name = "NĂM SINH")]
         [Range(1970, 2000, ErrorMessage = "Khoảng năm sinh sai")]
-       
+
         public int? YearOfBirth { set; get; }
     }
 }

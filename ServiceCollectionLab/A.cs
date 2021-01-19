@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ServiceCollectionLab
+﻿namespace ServiceCollectionLab
 {
-    class A :BaseInformation
+    class A : BaseInformation
     {
         public A() => NotifyCreate();
     }

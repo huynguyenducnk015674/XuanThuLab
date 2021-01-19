@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ServiceCollectionLab
 {
-    class D:BaseInformation
+    class D : BaseInformation
     {
         A dependency;
         int number = 0;
@@ -14,7 +12,7 @@ namespace ServiceCollectionLab
             this.number = number;
             NotifyCreate();
         }
-        public  void Display()
+        public void Display()
         {
             Console.WriteLine($"This is function of D with number ={number}");
         }

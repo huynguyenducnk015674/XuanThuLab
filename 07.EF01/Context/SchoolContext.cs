@@ -1,8 +1,5 @@
 ﻿using _07.EF01.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _07.EF01.Context
 {
@@ -17,12 +14,10 @@ namespace _07.EF01.Context
         public DbSet<Grade> Grades { get; set; }
         // Chuỗi kết nối tới CSDL (MS SQL Server)
         private const string connectionString = @"
-                Data Source=CTY-LTP-702;
-                Initial Catalog=EF01;
-                User ID=SA;Password=1234$#@!qwer";
+                Data Source=CTY-LTP-702;Initial Catalog=EF01;User ID=SA;Password=1234$#@!qwer";
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           
+
             optionsBuilder.UseSqlServer(connectionString);
         }
 

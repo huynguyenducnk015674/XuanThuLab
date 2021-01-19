@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace _03.map_request_response
@@ -102,7 +99,7 @@ namespace _03.map_request_response
                 productId = 1111,
                 productName = "Tivi"
             };
-            return  JsonConvert.SerializeObject(product);
+            return JsonConvert.SerializeObject(product);
         }
     }
 }

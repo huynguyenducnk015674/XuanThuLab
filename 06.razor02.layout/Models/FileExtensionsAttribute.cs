@@ -1,25 +1,23 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace _06.razor02.layout.Models
 {
-    public class FileExtensionsAttribute: ValidationAttribute
+    public class FileExtensionsAttribute : ValidationAttribute
     {
         private readonly string[] _extensions;
         private readonly string _errorMessage;
 
-        public FileExtensionsAttribute(string[] _extensions,string errorMessage)
+        public FileExtensionsAttribute(string[] _extensions, string errorMessage)
         {
             this._extensions = _extensions;
             this._errorMessage = errorMessage;
         }
 
-        protected override ValidationResult IsValid(object value,ValidationContext context)
+        protected override ValidationResult IsValid(object value, ValidationContext context)
         {
             var file = value as IFormFile;
 
@@ -30,7 +28,7 @@ namespace _06.razor02.layout.Models
                 {
                     return new ValidationResult(GetErrorMessage());
                 }
-                      
+
             }
 
             return ValidationResult.Success;

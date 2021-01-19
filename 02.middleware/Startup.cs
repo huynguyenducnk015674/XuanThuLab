@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
@@ -47,12 +43,14 @@ namespace _02.middleware
             app.UseEndpoints(endpoints =>
             {
                 // EndPoint(2) khi truy vấn đến /Testpost với phương thức post hoặc put
-                endpoints.MapMethods("/Testpost", new string[] { "post", "put" }, async context => {
+                endpoints.MapMethods("/Testpost", new string[] { "post", "put" }, async context =>
+                {
                     await context.Response.WriteAsync("post/pust");
                 });
 
                 //  EndPoint(2) -  Middleware khi truy cập /Home với phương thức GET - nó làm Middleware cuối Pipeline
-                endpoints.MapGet("/Home", async context => {
+                endpoints.MapGet("/Home", async context =>
+                {
 
                     int? count = context.Session.GetInt32("count");
                     count = (count != null) ? count + 1 : 1;
@@ -63,7 +61,8 @@ namespace _02.middleware
             });
             // EndPoint(3)  app.Run tham số là hàm delegate tham số là HttpContex
             // - nó tạo điểm cuối của pipeline.
-            app.Run(async context => {
+            app.Run(async context =>
+            {
                 context.Response.StatusCode = StatusCodes.Status404NotFound;
                 await context.Response.WriteAsync("Page not found");
             });

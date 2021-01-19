@@ -1,8 +1,6 @@
 ﻿using _07.EF01.Context;
 using _07.EF01.Models;
-using Microsoft.EntityFrameworkCore;
 using System;
-using System.Linq;
 
 namespace _07.EF01
 {
@@ -11,11 +9,11 @@ namespace _07.EF01
         static void Main(string[] args)
         {
             Console.WriteLine("Demo Blog Entity Framework");
-            using ( BloggingContext context = new BloggingContext())
+            using (BloggingContext context = new BloggingContext())
             {
                 Addobject(context);
             }
-                Console.ReadLine();
+            Console.ReadLine();
         }
         static void Addobject(BloggingContext context)
         {

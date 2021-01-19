@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using _06.razor02.layout.Models;
+﻿using _06.razor02.layout.Models;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using System;
 
 namespace _06.razor02.layout.Pages
 {
@@ -34,13 +31,13 @@ namespace _06.razor02.layout.Pages
         }
         [BindProperty]
         public string Email { get; set; }
-        [BindProperty(Name ="username")]
+        [BindProperty(Name = "username")]
         public string UserId { get; set; }
-        [BindProperty(SupportsGet =true)]
+        [BindProperty(SupportsGet = true)]
         public int ProductId { get; set; }
         [BindProperty]
         public string Color { get; set; }
-        [BindProperty(SupportsGet =true)]
+        [BindProperty(SupportsGet = true)]
         public Product product { get; set; }
     }
 }

@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ServiceCollectionLab.Impl;
 using System;
 using System.IO;
 
@@ -14,7 +13,7 @@ namespace ServiceCollectionLab
             ////Tạo Service collection 
             ServiceCollection serviceCollection = new ServiceCollection();
 
-            
+
             // Đăng ký obecj A
             serviceCollection.AddScoped<A>();
 
@@ -31,9 +30,9 @@ namespace ServiceCollectionLab
             //B b2 = serviceProvider.GetService<B>();
             //b1.ShowInfo();
             //b2.ShowInfo();
-           
+
             A a1 = serviceProvider.GetService<A>();
-            A a2=serviceProvider.GetService<A>();
+            A a2 = serviceProvider.GetService<A>();
             ///////////////////////////////////////////////////
             //C c1 = serviceProvider.GetService<C>();
             //C c2 = serviceProvider.GetService<C>();
@@ -63,8 +62,8 @@ namespace ServiceCollectionLab
             //////////////////////////////////////////////////////////////
             var configBuilder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettingss.json",true)
-                .AddJsonFile("appsetting_dev.json",true);
+                .AddJsonFile("appsettingss.json", true)
+                .AddJsonFile("appsetting_dev.json", true);
             var root = configBuilder.Build();
             var key = root.GetSection("option1").GetSection("key1").Value;
 

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ServiceCollectionLab
+﻿namespace ServiceCollectionLab
 {
     class Car
     {
@@ -10,9 +6,9 @@ namespace ServiceCollectionLab
         public Car(Horn horn) => this._horn = horn;
         public void Beep()
         {
-          //  Horn h = new Horn();
+            //  Horn h = new Horn();
             _horn.Beep();
         }
-        
+
     }
 }

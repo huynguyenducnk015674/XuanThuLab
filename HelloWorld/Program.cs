@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace HelloWorld
 {
@@ -18,7 +12,7 @@ namespace HelloWorld
             //var hostBuilder=CreateHostBuilder(args);
             //var iHost = hostBuilder.Build();
             //iHost.Run();
-            
+
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -30,6 +24,6 @@ namespace HelloWorld
                     // UseStartup chỉ ra lớp khởi chạy ứng dụng (đăng ký dịch vụ)
                     webBuilder.UseStartup<Startup>();
                     // Check code
-                }); 
+                });
     }
 }

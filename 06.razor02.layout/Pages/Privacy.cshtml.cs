@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using _06.razor02.layout.Pages.Shared.Components.MessagePage;
+﻿using _06.razor02.layout.Pages.Shared.Components.MessagePage;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;

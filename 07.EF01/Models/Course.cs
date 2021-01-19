@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace _07.EF01.Models
 {
@@ -8,7 +6,7 @@ namespace _07.EF01.Models
     {
         public int CourseId { get; set; }
         public string CourseName { get; set; }
-        public IList<StudentCourse> StudentCourses  { get; set; }
+        public IList<StudentCourse> StudentCourses { get; set; }
 
     }
 }

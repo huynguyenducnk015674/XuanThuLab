@@ -1,7 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace _06.razor02.layout.Models
@@ -15,7 +12,7 @@ namespace _06.razor02.layout.Models
             string modelName = bindingContext.ModelName;
             // Lấy giá trị gửi đến. Không thiết lập giá trị cho thuộc tính
             ValueProviderResult valueProviderResult = bindingContext.ValueProvider.GetValue(modelName);
-            if(valueProviderResult==ValueProviderResult.None) return Task.CompletedTask;
+            if (valueProviderResult == ValueProviderResult.None) return Task.CompletedTask;
             // Thiết lập cho ModelState giá trị bindinng
             bindingContext.ModelState.SetModelValue(modelName, valueProviderResult);
             // Đọc giá trị đầu tiên

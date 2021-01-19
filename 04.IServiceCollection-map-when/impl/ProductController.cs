@@ -2,10 +2,8 @@
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace _04.IServiceCollection_map_when.impl
@@ -15,7 +13,7 @@ namespace _04.IServiceCollection_map_when.impl
         readonly IListProductName lsPhone;
         readonly IListProductName lsLaptop;
         readonly IOptions<TestOptions> lvOption;
-        public ProductController(IListProductName lsPhone, IListProductName lsLaptop,IOptions<TestOptions> options)
+        public ProductController(IListProductName lsPhone, IListProductName lsLaptop, IOptions<TestOptions> options)
         {
             this.lsPhone = lsPhone;
             this.lsLaptop = lsLaptop;
@@ -67,7 +65,7 @@ namespace _04.IServiceCollection_map_when.impl
             _session.SetString(key_Access, jsonSave);
             Console.WriteLine(accessInfoSave);
         }
-        public static string  CountAccessInfo(HttpContext context)
+        public static string CountAccessInfo(HttpContext context)
         {
             var _session = context.Session;
             string key_access = "info_access";
@@ -76,10 +74,11 @@ namespace _04.IServiceCollection_map_when.impl
                 count = 0,
                 lasttime = DateTime.Now
             };
-            _session.GetString(key_access);           
+            _session.GetString(key_access);
             dynamic lastAccessInfo;
             string json = _session.GetString(key_access);
-            if (json!=null){
+            if (json != null)
+            {
                 lastAccessInfo = JsonConvert.DeserializeObject(json, accessInfoType.GetType());
             }
             else

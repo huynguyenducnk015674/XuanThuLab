@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace _02.middleware
@@ -12,15 +10,15 @@ namespace _02.middleware
         public CheckAcessMiddleware(RequestDelegate _next) => this._next = _next;
         public async Task Invoke(HttpContext httpContext)
         {
-            if(httpContext.Request.Path=="/testxxx")
+            if (httpContext.Request.Path == "/testxxx")
             {
                 Console.WriteLine("CheckAccessMiddleWare : Cấm không cho truy cập");
-                await Task.Run( async () =>
-                {
-                    string html = "<h1>CAM KHONG DUOC TRUY CAP</h1>";
-                    httpContext.Response.StatusCode = StatusCodes.Status403Forbidden;
-                    await httpContext.Response.WriteAsync(html);
-                });
+                await Task.Run(async () =>
+               {
+                   string html = "<h1>CAM KHONG DUOC TRUY CAP</h1>";
+                   httpContext.Response.StatusCode = StatusCodes.Status403Forbidden;
+                   await httpContext.Response.WriteAsync(html);
+               });
             }
             else
             {
@@ -30,7 +28,7 @@ namespace _02.middleware
                 // Chuyển Middleware tiếp theo trong pipeline
                 await _next(httpContext);
             }
-            
+
 
         }
     }

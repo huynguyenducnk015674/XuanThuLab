@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace _06.razor02.layout.Pages.Shared.Components.MessagePage
 {
     [ViewComponent]
-    public class MessagePage :ViewComponent
+    public class MessagePage : ViewComponent
     {
         public const string COMPONENTNAME = "MessagePage";
         // Dữ liệu nội dung trang thông báo

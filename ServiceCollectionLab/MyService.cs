@@ -1,7 +1,5 @@
 ﻿using Microsoft.Extensions.Options;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ServiceCollectionLab
 {
@@ -19,10 +17,10 @@ namespace ServiceCollectionLab
             Console.WriteLine($"{this.GetType().Name} is created !!!");
 
         }
-        public void ShowData() 
+        public void ShowData()
         {
             Console.WriteLine($"{data1} -  {data2}");
             data3.ShowInfo();
-        } 
+        }
     }
 }

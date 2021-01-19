@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -38,7 +34,7 @@ namespace _03.map_request_response
                 {
                     string menu = HtmlHelper.MenuTop(HtmlHelper.DefaultMenuTopItems(), context.Request);
                     string content = HtmlHelper.HtmlTrangchu();
-                    string html = HtmlHelper.HtmlDocument("Home Page", menu+ content);
+                    string html = HtmlHelper.HtmlDocument("Home Page", menu + content);
                     await context.Response.WriteAsync(html);
                 });
                 endpoints.Map("/RequestInfo/abc/xyz", async context =>
@@ -59,10 +55,10 @@ namespace _03.map_request_response
             });
             app.Map("/Json", (app) =>
             {
-                app.Run(  async context =>
-                {
-                    await context.Response.WriteAsync(RequestProcess.PrintJson(context.Request).Result);
-                });                
+                app.Run(async context =>
+              {
+                  await context.Response.WriteAsync(RequestProcess.PrintJson(context.Request).Result);
+              });
             });
             app.Map("/Form", (app) =>
              {

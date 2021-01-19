@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ServiceCollectionLab.Impl
+﻿namespace ServiceCollectionLab.Impl
 {
     class MySql : SQL
     {

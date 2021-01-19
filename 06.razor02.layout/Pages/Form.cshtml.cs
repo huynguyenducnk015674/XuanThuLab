@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using _06.razor02.layout.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -17,7 +13,7 @@ namespace _06.razor02.layout.Pages
         readonly IWebHostEnvironment envir;
         readonly ILogger log;
         public string Message;
-        public FormModel(IWebHostEnvironment envir,ILogger log)
+        public FormModel(IWebHostEnvironment envir, ILogger log)
         {
             this.envir = envir;
         }
@@ -29,11 +25,12 @@ namespace _06.razor02.layout.Pages
             if (ModelState.IsValid)
             {
                 Message = "Data post ok !!!";
-            }else
+            }
+            else
             {
                 Message = "Data post not ok !!!";
             }
         }
-       
+
     }
 }
